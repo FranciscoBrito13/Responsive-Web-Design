@@ -1,0 +1,71 @@
+
+*{
+  background-color: lightgrey;
+}
+
+
+h1 {
+  text-align: center;
+}
+
+#des {
+  text-align: center;
+}
+
+.img {
+  width: 100%;
+  max-width: 600px;
+  max-height: 400px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: white; 
+  margin: 15px auto 30px auto;
+}
+
+.img-caption {
+  text-align: center;
+  color: black;
+  padding: 10px;
+  background-color: white;
+  display: inline-block;
+}
+
+#image {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  justify-content: center;
+  
+}
+
+h3 {
+  display: flex;
+  justify-content: center;
+}
+#tribute-link {
+    text-decoration: none;
+    color: black;
+}
+
+#tribute-link:hover {
+   background-color: darkgray;
+ }
+
+#tribute-link:visited{
+  color:black;
+}
+
+.bold {
+  font-weight: bold;
+  text-decoration: line;
+}
+
+#year-text p {
+  margin: 10px;
+  margin-left: 70px;
+  margin-right: 70px;
+}
