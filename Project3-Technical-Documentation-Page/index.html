@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Technical Documentation Page</title>
+    <meta name="viewport" content="width=device-w
+    idth, initial-scale=1.0"/>
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+    <header>
+      <nav id="navbar">
+        <header class="title">Python Documentation</header>
+        <ul>
+          <li><a href="#Introduction"class="nav-link">Introduction</a></li>
+          <li><a href="#What_you_should_already_know"class="nav-link">What you should already know</a></li>
+          <li><a href="#Python" class="nav-link">Python</a></li>
+          <li><a href="#Hello_world" class="nav-link">Hello world</a></li>
+          <li><a href="#Variables" class="nav-link">Variables</a></li>
+          <li><a href="#Declaring_variables" class="nav-link">Declaring variables</a></li>
+          <li><a href="#Variable_scope" class="nav-link">Variable scope</a></li>
+          <li><a href="#Global_variables" class="nav-link">Global variables</a></li>
+          <li><a href="#Constants" class="nav-link">Constants</a></li>
+          <li><a href="#Data_types" class="nav-link">Data types</a></li>
+          <li><a href="#if...else_statement" class="nav-link">if...else statement</a></li>
+          <li><a href="#while_statement" class="nav-link">while statement</a></li>
+          <li><a href="#Function_declarations" class="nav-link">Function declarations</a></li>
+          <li><a href="#Reference" class="nav-link">Reference</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main id="main-doc">
+      <section id="Introduction" class="main-section">
+        <header>Introduction</header>
+        <article>
+        <p>Python is a versatile, cross-platform, object-oriented programming language known for its simplicity and lightweight nature. Just like JavaScript, Python can be used in various host environments, providing programmatic control over the objects within those environments.</p>
+        <p>Python offers the following advantages:</p>
+        <ul>
+          <li>Versatility: Python can be used in a variety of domains, including web development, scientific computing, data analysis, machine learning, and more. Its flexibility allows developers to tackle diverse projects with a single language.</li>
+          <li>Readability and simplicity: Python's clean and intuitive syntax promotes readability, making it easier for developers to understand and maintain code. The language's design philosophy emphasizes simplicity and reducing the complexity of programming tasks.</li>
+        </ul>
+        </article>
+      </section>
+      <section id="What_you_should_already_know" class="main-section">
+        <header>What you should already know</header>
+        <article>
+        <p>This guide assumes you have the following basic background:</p>
+        <ul>
+          <li>Familiarity with programming concepts: It is assumed that you have a basic understanding of fundamental programming concepts such as variables, data types, control flow, and functions.</li>
+          <li>Knowledge of a programming language: Prior experience with any programming language will be beneficial in understanding the concepts and examples presented in this guide.</li>
+          <li>Basic understanding of computer systems: It is helpful to have a general understanding of how computers work, including concepts like memory, file systems, and operating systems. This knowledge will provide a foundation for understanding the execution and behavior of programs.</li>
+        </ul>
+        </article>
+      </section>
+      <section id="Python" class="main-section">
+        <header>Python</header>
+        <article>
+        <p>Python is a versatile and powerful programming language that has gained immense popularity among developers. One of the key reasons for Python's success is its emphasis on readability and simplicity. The language is designed with a clean and intuitive syntax, allowing developers to write code that is easy to understand and maintain. Python's emphasis on code readability encourages best practices and helps teams collaborate more effectively. This simplicity also reduces the learning curve for beginners, making Python an excellent choice for those new to programming.</p>
+        <p>Another significant advantage of Python is its extensive library ecosystem. The Python Package Index (PyPI) hosts thousands of libraries that provide pre-built functionality for various purposes. These libraries cover a wide range of domains, such as web development, scientific computing, data analysis, machine learning, and more. The availability of these libraries allows developers to leverage existing solutions, save time, and focus on solving higher-level problems rather than reinventing the wheel. This rich library ecosystem is one of the reasons why Python is widely used in fields such as data science and artificial intelligence.</p>
+        <p>
+Python is a versatile and powerful programming language that has gained immense popularity among developers. One of the key reasons for Python's success is its emphasis on readability and simplicity. The language is designed with a clean and intuitive syntax, allowing developers to write code that is easy to understand and maintain. Python's emphasis on code readability encourages best practices and helps teams collaborate more effectively. This simplicity also reduces the learning curve for beginners, making Python an excellent choice for those new to programming.
+
+Another significant advantage of Python is its extensive library ecosystem. The Python Package Index (PyPI) hosts thousands of libraries that provide pre-built functionality for various purposes. These libraries cover a wide range of domains, such as web development, scientific computing, data analysis, machine learning, and more. The availability of these libraries allows developers to leverage existing solutions, save time, and focus on solving higher-level problems rather than reinventing the wheel. This rich library ecosystem is one of the reasons why Python is widely used in fields such as data science and artificial intelligence.
+
+Python's cross-platform compatibility is another notable feature that sets it apart. Python can run on different operating systems, including Windows, macOS, and various Linux distributions. This cross-platform support allows developers to write code that can be seamlessly executed on different machines without major modifications. Moreover, Python can also integrate with other languages, enabling developers to combine Python with existing systems or use it as a scripting language within larger applications.</p>
+        </article>
+      </section>
+      <section id="Hello_world" class="main-section">
+        <header>Hello world</header>
+        <article>
+          To get started with writing Python, open a text editor or an integrated development environment (IDE) and follow these steps to write your first "Hello world" Python code:
+        <code>def greetMe(yourName):
+                print("Hello", yourName)
+              greetMe("World")
+        </code>
+        </article>
+      </section>
+      <section id="Variables" class="main-section">
+        <header>Variables</header>
+        <article>
+        <p>In Python, variables serve as symbolic names for values in your code. When naming variables in Python, you need to follow specific rules and conventions. Variable names must begin with a letter (a-z, A-Z) or an underscore (_). Subsequent characters in the variable name can be letters, digits, or underscores. Python is case-sensitive, meaning that uppercase and lowercase letters are considered distinct. This allows you to have variables like "myVar" and "myvar" as separate entities.</p>
+        <p>Python also allows the use of Unicode characters in variable names, giving you the flexibility to include non-ASCII characters such as å or ü. However, it's important to note that using non-ASCII characters in variable names might reduce the code's portability and compatibility across different environments or editors.</p>
+        <p>When choosing variable names in Python, it's good practice to avoid using special characters like @, #, or $. Stick to using letters, digits, and underscores to ensure the name's validity. Additionally, Python follows a naming convention known as snake_case, where multiple words in a variable name are separated by underscores. For example, my_variable_name is more readable than myvariablename.</p>
+        </article>
+      </section>
+      <section id="Declaring_variables" class="main-section">
+        <header>Declaring variables</header>
+        <article>
+        <p>By simply assigning a value to it. For example,<code> x = 42 </code>
+        This method creates a variable x and assigns it the value of 42. In Python, this syntax always declares a global variable unless it is explicitly defined within a function or a specific scope.
+        </p>
+        <p>Using the = operator to assign a value to a variable. For example,<code> y = 13 </code></p>
+        <p>By using the keyword global or local in a function. For example,<code>d ef my_function():
+        global z
+      z = 7 </code>This syntax is used within a function to declare a global variable explicitly using the global keyword. The variable z in this example is defined as a global variable within the function, allowing it to be accessed outside the function's scope.
+
+Alternatively, if you omit the global keyword, the variable will be treated as a local variable within the function's scope.</p>
+        </article>
+      </section>
+      <section id="Variable_scope" class="main-section">
+        <header>Variable scope</header>
+        <article>
+        <p>In Python, variable scope works differently compared to JavaScript. When you declare a variable within a function, it is considered a local variable and is only accessible within that function's scope. Conversely, when you declare a variable outside of any function, it becomes a global variable and is accessible to the entire document or module.</p>
+        <p>For example, consider the following Python code:</p>
+        <code>x = 5
+        def my_function():
+            y = 10
+            print(x)  # Accessing global variable
+            print(y)  # Accessing local variable
+
+        my_function()
+        print(x)  # Accessing global variable outside the function
+</code>
+        <p>In this code, we have an outer_function() that defines a global variable global_variable and a local variable local_variable. Inside the outer_function(), we have an inner_function() that modifies the local_variable using the nonlocal keyword, which allows access to the variable in the outer function's scope.
+
+</p>
+        <code>def outer_function():
+    global global_variable
+    local_variable = "I'm a local variable"
+
+    def inner_function():
+        nonlocal local_variable
+        local_variable = "Modified local variable"
+        print(local_variable)
+
+    inner_function()
+    print(local_variable)
+    print(global_variable)
+
+global_variable = "I'm a global variable"
+outer_function()
+print(global_variable)</code>
+        </article>
+      </section>
+      <section id="Global_variables" class="main-section">
+        <header>Global variables</header>
+        <article>
+        <p>In Python, global variables are not associated with a global object like in JavaScript. Instead, global variables in Python are accessible throughout the module or script in which they are defined. They can be accessed directly by their variable name.</p>
+        <p>In this code, global_variable is defined at the top level of the script, making it a global variable. Within the my_function(), the global variable global_variable can be accessed directly without any special syntax.
+
+</p>
+        </article>
+      </section>
+      <section id="Constants" class="main-section">
+        <header>Constants</header>
+        <article>
+        <p>In Python, there is no specific keyword or syntax to declare constants like the const keyword in JavaScript. However, it is a common convention in Python to use uppercase variable names to indicate that a variable is intended to be treated as a constant. By convention, these constants are not meant to be changed once assigned.</p>
+        <code>PI = 3.14</code>
+        <p>In this case, PI is written in uppercase to indicate that it is a constant value representing the mathematical constant Pi. While Python allows you to modify the value of a variable, it is customary to treat variables written in uppercase as constants and avoid changing their values throughout the execution of the program.</p>
+        <p>Python does not enforce immutability or prevent reassignment of variables, including those declared in uppercase. However, it is generally considered a best practice and a convention within the Python community to treat variables declared in uppercase as constants and refrain from modifying their values.</p>
+        <p>It's worth noting that Python does not provide built-in mechanisms to enforce constant behavior, such as preventing reassignment or generating errors if a constant is modified. It is up to the programmer to follow the convention and treat variables declared as constants as read-only throughout the codebase.</p>
+        </article>
+      </section>
+      <section id="Data_types" class="main-section">
+        <header>Data types</header>
+        <article>
+        <p>Python also has several data types that you can use to work with different kinds of values. Here are the commonly used data types in Python:</p>
+        <ul>
+          <li>Boolean: Represents the truth values True and False. It is used in logical operations and conditionals.</li>
+              <li>None: Similar to null in JavaScript, None represents the absence of a value. It is often used to indicate the absence of a return value or an uninitialized variable.</li>
+              <li>Numeric Types:</li>
+              <li>String: Represents a sequence of characters enclosed in single quotes (' ') or double quotes (" "). Strings are used to store and manipulate textual data.</li>
+              <li>List: Represents an ordered collection of items, enclosed in square brackets [ ]. Lists can contain elements of different types and can be modified (mutable).</li>
+              <li>Tuple: Similar to a list, a tuple represents an ordered collection of items, enclosed in parentheses ( ). However, tuples are immutable, meaning they cannot be modified after creation.
+
+</li>
+              <li>Set: Represents an unordered collection of unique elements. Sets do not allow duplicate values and provide methods for set operations like union, intersection, and difference.</li>
+          <li>Dictionary: Represents a collection of key-value pairs enclosed in curly braces { }. Each key-value pair maps a unique key to its associated value. Dictionaries are used for efficient lookup and retrieval of values based on keys.</li>
+        </ul>
+        </article>
+      </section>
+      <section id="if...else_statement" class="main-section">
+        <header>if...else statement</header>
+        <article>
+          In Python, the if statement is used to conditionally execute a block of code based on a logical condition. The syntax of the if statement in Python is as follows:
+        <code>if condition:
+    statement_1
+else:
+    statement_2</code>
+        <p>The condition can be any expression that evaluates to either True or False. If the condition evaluates to True, statement_1 is executed. Otherwise, if the condition evaluates to False, statement_2 is executed.</p>
+        <code>x = 5
+
+if x > 0:
+    print("x is positive")
+else:
+    print("x is non-positive")</code>
+        <code>x = 10
+
+if x > 0:
+    print("x is positive")
+elif x == 0:
+    print("x is zero")
+else:
+    print("x is negative")</code>
+        </article>
+      </section>
+      <section id="while_statement" class="main-section">
+        <header>while statement</header>
+        <article>
+          In Python, the while statement is used to repeatedly execute a block of code as long as a specified condition evaluates to true. The syntax of the while statement in Python is as follows:
+        <code>while condition:
+    statement</code>
+        <p>The condition is an expression that is evaluated before each iteration of the loop. If the condition evaluates to True, the statement block is executed. After the execution of the statement block, the condition is evaluated again. If the condition is still True, the statement block is executed again. This process continues until the condition becomes False</p>
+        <p>Here's an example that demonstrates the usage of the while statement in Python:</p>
+        <code>n = 0
+x = 0
+
+while n < 3:
+    n += 1
+    x += n
+
+print("Final values - n:", n, "x:", x)</code>
+        <p>In this example, the while loop iterates as long as the value of n is less than 3. Inside the loop, n is incremented by 1, and its value is added to x in each iteration. The loop continues until the value of n reaches 3. After completing the third iteration, the condition n < 3 evaluates to False, and the loop terminates.</p>
+        </article>
+      </section>
+      <section id="Function_declarations" class="main-section">
+        <header>Function declarations</header>
+        <article>
+        <p>
+In Python, a function definition begins with the def keyword, followed by the name of the function and a list of parameters enclosed in parentheses. The function block is indicated by a colon (:) and is comprised of Python statements indented below the function definition.</p>
+        <code>def square(number):
+    return number * number</code>
+        <p>In this example, the function square is defined with a single parameter called number. The function body consists of a single statement that calculates and returns the square of the input number using the return keyword.</p>
+        <code>result = square(5)
+print(result)  # Output: 25</code>
+        <p>In this code snippet, the square function is called with the argument 5. The returned result, which is the square of 5, is assigned to the variable result. Finally, the print statement displays the value of result, resulting in an output of 25.</p>
+        </article>
+      </section>
+      <section id="Reference" class="main-section">
+        <header>Reference</header>
+        <article>
+        <ul>
+          <li>All the documentation in this page is taken from CHATGPT</li>
+        </ul>
+        </article>
+      </section>
+
+    </main>
+  </body>
+</html>l>
